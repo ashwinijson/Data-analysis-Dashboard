@@ -1,45 +1,46 @@
-# Lead Management and Dashboard System in Google Sheets
+# Coffee Sales Dasboard
+## 1. Overview
 
-## Project Overview:
+An interactive Excel dashboard analyzing coffee sales from 2019–2022 across the United States,
+United Kingdom, and Ireland.
+Designed to visualize performance by roast type, product size, and loyalty card usage, providing
+quick, data-driven insights for business analysis.
 
-Developed a dynamic Lead Management System using Google Sheets, designed to streamline
-the distribution of leads and track agent performance efficiently. The system integrates multiple
-worksheets to ensure seamless data flow and real-time reporting.
+## Dataset used:
 
-## Project Components:
-• Master Sheet: Centralized hub for managing leads, assigning them to agents, and
-consolidating feedback and status updates.
+- <a href= "https://github.com/ashwinijson/Data-analysis-Dashboard/blob/main/coffeeOrdersData.xlsx"> CoffeeOrdersDataSet</a>
 
-• Agent Sheets (3): Individual worksheets for each agent to receive leads, update statuses,
-and provide feedback.
+## 2. Data Structure
 
-• Dashboard: Interactive dashboard reflecting real-time data from master and agent
-sheets, providing insights on lead distribution, agent performance, and overall progress.
+Tool: Microsoft Excel (Pivot Tables, Charts, Slicers)
+Dimensions: Order Date, Roast Type, Size, Loyalty Card, Country, Customer
+Metrics: Total Sales, Top Customers, Sales by Country, Sales Trend Over Time
 
-## Key Features:
-1. Automated Lead Distribution: The master sheet assigns leads to agents automatically based
-on predefined rules.
-2. Two-Way Data Sync: Agents can update the status of leads and provide feedback, which is
-instantly reflected in the master sheet.
-3. Real-Time Dashboard: Provides visualization of key metrics such as number of leads handled
-per agent, feedback status, and overall lead progress.
-4. Data Integrity: Maintains accurate and consistent data across all sheets, preventing
-duplication or data loss.
-5. User-Friendly Interface: Simple, easy-to-use sheets with clear instructions for both master
-and agent users.
+## 3. Execution Summary
 
-## Technologies Used:
-Google Sheets
+Cleaned and structured sales data, created pivot-based visuals, and connected slicers for realtime interactivity.
+Designed a single-page dashboard integrating multiple KPIs with easy filtering and clear visual
+storytelling.
 
-Google Apps Script (for automation and inter-sheet communication)
+## 4. Insights & Deep Dive
 
-Charts and graphs for dashboard visualization
+The United States led overall sales.
+Medium and Dark roasts were top-performing categories.
+250g–500g packs recorded the highest demand.
+Loyalty card customers showed stronger repeat purchase behavior.
 
-Outcome / Impact:
+## 5. Recommendations
 
-## Dataset Used:
+Expand loyalty programs to retain high-value customers.
+Focus promotions on top-selling roasts and high-demand regions.
+Incorporate automated forecasting for better seasonal planning.
 
-- <a href= "https://github.com/ashwinijson/Data-analysis-Dashboard/blob/main/coffeeOrdersData.xlsx"> Dataset</a>
-Improved efficiency in lead management and agent tracking.
-Real-time monitoring of agent performance.
-Centralized system reducing manual follow-ups and errors.
+## Tools & Skills
+
+Microsoft Excel • Pivot Tables • Charts • Data Modeling • Visualization • Business Analysis
+
+## Dashboard
+
+<img width="1730" height="794" alt="Screenshot 2025-11-14 182734" src="https://github.com/user-attachments/assets/cb13c49b-86f5-4fb7-8f0c-c973a888f46c" />
+
+
